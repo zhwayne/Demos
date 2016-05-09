@@ -1,0 +1,13 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - WLReloadPromptView (0.0.1)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture (~> 1.1)
+  - WLReloadPromptView (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  WLReloadPromptView: 5ed019ecac9c57eb14d4a2fba6091ca6df1b5842
+
+COCOAPODS: 0.39.0

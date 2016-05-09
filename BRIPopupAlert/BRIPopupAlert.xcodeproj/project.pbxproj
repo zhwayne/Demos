@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3037B231C97FEEB00DDB372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B221C97FEEB00DDB372 /* main.m */; };
+		A3037B261C97FEEB00DDB372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B251C97FEEB00DDB372 /* AppDelegate.m */; };
+		A3037B291C97FEEB00DDB372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B281C97FEEB00DDB372 /* ViewController.m */; };
+		A3037B2C1C97FEEB00DDB372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3037B2A1C97FEEB00DDB372 /* Main.storyboard */; };
+		A3037B2E1C97FEEB00DDB372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3037B2D1C97FEEB00DDB372 /* Assets.xcassets */; };
+		A3037B311C97FEEB00DDB372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3037B2F1C97FEEB00DDB372 /* LaunchScreen.storyboard */; };
+		A3037B3C1C97FEEB00DDB372 /* BRIPopupAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B3B1C97FEEB00DDB372 /* BRIPopupAlertTests.m */; };
+		A3037B471C97FEEB00DDB372 /* BRIPopupAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B461C97FEEB00DDB372 /* BRIPopupAlertUITests.m */; };
+		A3037B5E1C97FF2B00DDB372 /* BRIImagePopupAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B561C97FF2B00DDB372 /* BRIImagePopupAlert.m */; };
+		A3037B5F1C97FF2B00DDB372 /* BRIMessagePopupAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B581C97FF2B00DDB372 /* BRIMessagePopupAlert.m */; };
+		A3037B601C97FF2B00DDB372 /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B5C1C97FF2B00DDB372 /* KLCPopup.m */; };
+		A3037B641C97FF8300DDB372 /* BRIPasswordPopupAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A3037B631C97FF8300DDB372 /* BRIPasswordPopupAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3037B381C97FEEB00DDB372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3037B161C97FEEB00DDB372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3037B1D1C97FEEB00DDB372;
+			remoteInfo = BRIPopupAlert;
+		};
+		A3037B431C97FEEB00DDB372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3037B161C97FEEB00DDB372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3037B1D1C97FEEB00DDB372;
+			remoteInfo = BRIPopupAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3037B1E1C97FEEB00DDB372 /* BRIPopupAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRIPopupAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3037B221C97FEEB00DDB372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3037B241C97FEEB00DDB372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3037B251C97FEEB00DDB372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3037B271C97FEEB00DDB372 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3037B281C97FEEB00DDB372 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3037B2B1C97FEEB00DDB372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3037B2D1C97FEEB00DDB372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3037B301C97FEEB00DDB372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3037B321C97FEEB00DDB372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3037B371C97FEEB00DDB372 /* BRIPopupAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRIPopupAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3037B3B1C97FEEB00DDB372 /* BRIPopupAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRIPopupAlertTests.m; sourceTree = "<group>"; };
+		A3037B3D1C97FEEB00DDB372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3037B421C97FEEB00DDB372 /* BRIPopupAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRIPopupAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3037B461C97FEEB00DDB372 /* BRIPopupAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRIPopupAlertUITests.m; sourceTree = "<group>"; };
+		A3037B481C97FEEB00DDB372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3037B551C97FF2B00DDB372 /* BRIImagePopupAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIImagePopupAlert.h; sourceTree = "<group>"; };
+		A3037B561C97FF2B00DDB372 /* BRIImagePopupAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIImagePopupAlert.m; sourceTree = "<group>"; };
+		A3037B571C97FF2B00DDB372 /* BRIMessagePopupAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIMessagePopupAlert.h; sourceTree = "<group>"; };
+		A3037B581C97FF2B00DDB372 /* BRIMessagePopupAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIMessagePopupAlert.m; sourceTree = "<group>"; };
+		A3037B591C97FF2B00DDB372 /* BRIPopupAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIPopupAlert.h; sourceTree = "<group>"; };
+		A3037B5B1C97FF2B00DDB372 /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		A3037B5C1C97FF2B00DDB372 /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
+		A3037B621C97FF8300DDB372 /* BRIPasswordPopupAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIPasswordPopupAlert.h; sourceTree = "<group>"; };
+		A3037B631C97FF8300DDB372 /* BRIPasswordPopupAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIPasswordPopupAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3037B1B1C97FEEB00DDB372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B341C97FEEB00DDB372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B3F1C97FEEB00DDB372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3037B151C97FEEB00DDB372 = {
+			isa = PBXGroup;
+			children = (
+				A3037B201C97FEEB00DDB372 /* BRIPopupAlert */,
+				A3037B3A1C97FEEB00DDB372 /* BRIPopupAlertTests */,
+				A3037B451C97FEEB00DDB372 /* BRIPopupAlertUITests */,
+				A3037B1F1C97FEEB00DDB372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3037B1F1C97FEEB00DDB372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B1E1C97FEEB00DDB372 /* BRIPopupAlert.app */,
+				A3037B371C97FEEB00DDB372 /* BRIPopupAlertTests.xctest */,
+				A3037B421C97FEEB00DDB372 /* BRIPopupAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3037B201C97FEEB00DDB372 /* BRIPopupAlert */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B541C97FF2B00DDB372 /* BRIPopupAlert */,
+				A3037B241C97FEEB00DDB372 /* AppDelegate.h */,
+				A3037B251C97FEEB00DDB372 /* AppDelegate.m */,
+				A3037B271C97FEEB00DDB372 /* ViewController.h */,
+				A3037B281C97FEEB00DDB372 /* ViewController.m */,
+				A3037B2A1C97FEEB00DDB372 /* Main.storyboard */,
+				A3037B2D1C97FEEB00DDB372 /* Assets.xcassets */,
+				A3037B2F1C97FEEB00DDB372 /* LaunchScreen.storyboard */,
+				A3037B321C97FEEB00DDB372 /* Info.plist */,
+				A3037B211C97FEEB00DDB372 /* Supporting Files */,
+			);
+			path = BRIPopupAlert;
+			sourceTree = "<group>";
+		};
+		A3037B211C97FEEB00DDB372 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B221C97FEEB00DDB372 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3037B3A1C97FEEB00DDB372 /* BRIPopupAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B3B1C97FEEB00DDB372 /* BRIPopupAlertTests.m */,
+				A3037B3D1C97FEEB00DDB372 /* Info.plist */,
+			);
+			path = BRIPopupAlertTests;
+			sourceTree = "<group>";
+		};
+		A3037B451C97FEEB00DDB372 /* BRIPopupAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B461C97FEEB00DDB372 /* BRIPopupAlertUITests.m */,
+				A3037B481C97FEEB00DDB372 /* Info.plist */,
+			);
+			path = BRIPopupAlertUITests;
+			sourceTree = "<group>";
+		};
+		A3037B541C97FF2B00DDB372 /* BRIPopupAlert */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B551C97FF2B00DDB372 /* BRIImagePopupAlert.h */,
+				A3037B561C97FF2B00DDB372 /* BRIImagePopupAlert.m */,
+				A3037B571C97FF2B00DDB372 /* BRIMessagePopupAlert.h */,
+				A3037B581C97FF2B00DDB372 /* BRIMessagePopupAlert.m */,
+				A3037B621C97FF8300DDB372 /* BRIPasswordPopupAlert.h */,
+				A3037B631C97FF8300DDB372 /* BRIPasswordPopupAlert.m */,
+				A3037B591C97FF2B00DDB372 /* BRIPopupAlert.h */,
+				A3037B5A1C97FF2B00DDB372 /* KLCPopup */,
+			);
+			path = BRIPopupAlert;
+			sourceTree = "<group>";
+		};
+		A3037B5A1C97FF2B00DDB372 /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				A3037B5B1C97FF2B00DDB372 /* KLCPopup.h */,
+				A3037B5C1C97FF2B00DDB372 /* KLCPopup.m */,
+			);
+			path = KLCPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3037B1D1C97FEEB00DDB372 /* BRIPopupAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3037B4B1C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlert" */;
+			buildPhases = (
+				A3037B1A1C97FEEB00DDB372 /* Sources */,
+				A3037B1B1C97FEEB00DDB372 /* Frameworks */,
+				A3037B1C1C97FEEB00DDB372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRIPopupAlert;
+			productName = BRIPopupAlert;
+			productReference = A3037B1E1C97FEEB00DDB372 /* BRIPopupAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3037B361C97FEEB00DDB372 /* BRIPopupAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3037B4E1C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlertTests" */;
+			buildPhases = (
+				A3037B331C97FEEB00DDB372 /* Sources */,
+				A3037B341C97FEEB00DDB372 /* Frameworks */,
+				A3037B351C97FEEB00DDB372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3037B391C97FEEB00DDB372 /* PBXTargetDependency */,
+			);
+			name = BRIPopupAlertTests;
+			productName = BRIPopupAlertTests;
+			productReference = A3037B371C97FEEB00DDB372 /* BRIPopupAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3037B411C97FEEB00DDB372 /* BRIPopupAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3037B511C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlertUITests" */;
+			buildPhases = (
+				A3037B3E1C97FEEB00DDB372 /* Sources */,
+				A3037B3F1C97FEEB00DDB372 /* Frameworks */,
+				A3037B401C97FEEB00DDB372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3037B441C97FEEB00DDB372 /* PBXTargetDependency */,
+			);
+			name = BRIPopupAlertUITests;
+			productName = BRIPopupAlertUITests;
+			productReference = A3037B421C97FEEB00DDB372 /* BRIPopupAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3037B161C97FEEB00DDB372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZHWAYNE;
+				TargetAttributes = {
+					A3037B1D1C97FEEB00DDB372 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PMEU432463;
+					};
+					A3037B361C97FEEB00DDB372 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3037B1D1C97FEEB00DDB372;
+					};
+					A3037B411C97FEEB00DDB372 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3037B1D1C97FEEB00DDB372;
+					};
+				};
+			};
+			buildConfigurationList = A3037B191C97FEEB00DDB372 /* Build configuration list for PBXProject "BRIPopupAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3037B151C97FEEB00DDB372;
+			productRefGroup = A3037B1F1C97FEEB00DDB372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3037B1D1C97FEEB00DDB372 /* BRIPopupAlert */,
+				A3037B361C97FEEB00DDB372 /* BRIPopupAlertTests */,
+				A3037B411C97FEEB00DDB372 /* BRIPopupAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3037B1C1C97FEEB00DDB372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3037B311C97FEEB00DDB372 /* LaunchScreen.storyboard in Resources */,
+				A3037B2E1C97FEEB00DDB372 /* Assets.xcassets in Resources */,
+				A3037B2C1C97FEEB00DDB372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B351C97FEEB00DDB372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B401C97FEEB00DDB372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3037B1A1C97FEEB00DDB372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3037B291C97FEEB00DDB372 /* ViewController.m in Sources */,
+				A3037B641C97FF8300DDB372 /* BRIPasswordPopupAlert.m in Sources */,
+				A3037B261C97FEEB00DDB372 /* AppDelegate.m in Sources */,
+				A3037B5F1C97FF2B00DDB372 /* BRIMessagePopupAlert.m in Sources */,
+				A3037B601C97FF2B00DDB372 /* KLCPopup.m in Sources */,
+				A3037B231C97FEEB00DDB372 /* main.m in Sources */,
+				A3037B5E1C97FF2B00DDB372 /* BRIImagePopupAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B331C97FEEB00DDB372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3037B3C1C97FEEB00DDB372 /* BRIPopupAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3037B3E1C97FEEB00DDB372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3037B471C97FEEB00DDB372 /* BRIPopupAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3037B391C97FEEB00DDB372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3037B1D1C97FEEB00DDB372 /* BRIPopupAlert */;
+			targetProxy = A3037B381C97FEEB00DDB372 /* PBXContainerItemProxy */;
+		};
+		A3037B441C97FEEB00DDB372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3037B1D1C97FEEB00DDB372 /* BRIPopupAlert */;
+			targetProxy = A3037B431C97FEEB00DDB372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3037B2A1C97FEEB00DDB372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3037B2B1C97FEEB00DDB372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3037B2F1C97FEEB00DDB372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3037B301C97FEEB00DDB372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3037B491C97FEEB00DDB372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3037B4A1C97FEEB00DDB372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3037B4C1C97FEEB00DDB372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BRIPopupAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A3037B4D1C97FEEB00DDB372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BRIPopupAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A3037B4F1C97FEEB00DDB372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BRIPopupAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRIPopupAlert.app/BRIPopupAlert";
+			};
+			name = Debug;
+		};
+		A3037B501C97FEEB00DDB372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BRIPopupAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRIPopupAlert.app/BRIPopupAlert";
+			};
+			name = Release;
+		};
+		A3037B521C97FEEB00DDB372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BRIPopupAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BRIPopupAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3037B531C97FEEB00DDB372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BRIPopupAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhwayne.BRIPopupAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BRIPopupAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3037B191C97FEEB00DDB372 /* Build configuration list for PBXProject "BRIPopupAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3037B491C97FEEB00DDB372 /* Debug */,
+				A3037B4A1C97FEEB00DDB372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3037B4B1C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3037B4C1C97FEEB00DDB372 /* Debug */,
+				A3037B4D1C97FEEB00DDB372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3037B4E1C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3037B4F1C97FEEB00DDB372 /* Debug */,
+				A3037B501C97FEEB00DDB372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3037B511C97FEEB00DDB372 /* Build configuration list for PBXNativeTarget "BRIPopupAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3037B521C97FEEB00DDB372 /* Debug */,
+				A3037B531C97FEEB00DDB372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3037B161C97FEEB00DDB372 /* Project object */;
+}

@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'WLReloadPromptView', '~> 0.0.1'

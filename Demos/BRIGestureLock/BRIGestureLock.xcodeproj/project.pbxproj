@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3261FD81C1963FC004030B9 /* NSArray+BRIGestureLock.m in Sources */ = {isa = PBXBuildFile; fileRef = A3261FD71C1963FC004030B9 /* NSArray+BRIGestureLock.m */; };
+		A3F897101C17DAEB00D7041C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8970F1C17DAEB00D7041C /* main.m */; };
+		A3F897131C17DAEB00D7041C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F897121C17DAEB00D7041C /* AppDelegate.m */; };
+		A3F897161C17DAEB00D7041C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F897151C17DAEB00D7041C /* ViewController.m */; };
+		A3F897191C17DAEB00D7041C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F897171C17DAEB00D7041C /* Main.storyboard */; };
+		A3F8971B1C17DAEB00D7041C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F8971A1C17DAEB00D7041C /* Assets.xcassets */; };
+		A3F8971E1C17DAEB00D7041C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F8971C1C17DAEB00D7041C /* LaunchScreen.storyboard */; };
+		A3F897291C17DAEC00D7041C /* BRIGestureLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F897281C17DAEC00D7041C /* BRIGestureLockTests.m */; };
+		A3F897351C17DB2A00D7041C /* BRIGestureLock.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F897341C17DB2A00D7041C /* BRIGestureLock.m */; };
+		A3F897381C17DC3D00D7041C /* BRIGesturePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F897371C17DC3D00D7041C /* BRIGesturePoint.m */; };
+		A3F8973B1C17DC5600D7041C /* BRIGestureLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8973A1C17DC5600D7041C /* BRIGestureLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F897251C17DAEC00D7041C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F897031C17DAEB00D7041C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F8970A1C17DAEB00D7041C;
+			remoteInfo = BRIGestureLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3261FD61C1963FC004030B9 /* NSArray+BRIGestureLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BRIGestureLock.h"; sourceTree = "<group>"; };
+		A3261FD71C1963FC004030B9 /* NSArray+BRIGestureLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BRIGestureLock.m"; sourceTree = "<group>"; };
+		A3F8970B1C17DAEB00D7041C /* BRIGestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRIGestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F8970F1C17DAEB00D7041C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3F897111C17DAEB00D7041C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3F897121C17DAEB00D7041C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3F897141C17DAEB00D7041C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3F897151C17DAEB00D7041C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3F897181C17DAEB00D7041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F8971A1C17DAEB00D7041C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F8971D1C17DAEB00D7041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F8971F1C17DAEB00D7041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F897241C17DAEC00D7041C /* BRIGestureLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRIGestureLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F897281C17DAEC00D7041C /* BRIGestureLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRIGestureLockTests.m; sourceTree = "<group>"; };
+		A3F8972A1C17DAEC00D7041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F897331C17DB2A00D7041C /* BRIGestureLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIGestureLock.h; sourceTree = "<group>"; };
+		A3F897341C17DB2A00D7041C /* BRIGestureLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIGestureLock.m; sourceTree = "<group>"; };
+		A3F897361C17DC3D00D7041C /* BRIGesturePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIGesturePoint.h; sourceTree = "<group>"; };
+		A3F897371C17DC3D00D7041C /* BRIGesturePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIGesturePoint.m; sourceTree = "<group>"; };
+		A3F897391C17DC5600D7041C /* BRIGestureLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRIGestureLine.h; sourceTree = "<group>"; };
+		A3F8973A1C17DC5600D7041C /* BRIGestureLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRIGestureLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F897081C17DAEB00D7041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F897211C17DAEC00D7041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F897021C17DAEB00D7041C = {
+			isa = PBXGroup;
+			children = (
+				A3F8970D1C17DAEB00D7041C /* BRIGestureLock */,
+				A3F897271C17DAEC00D7041C /* BRIGestureLockTests */,
+				A3F8970C1C17DAEB00D7041C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F8970C1C17DAEB00D7041C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F8970B1C17DAEB00D7041C /* BRIGestureLock.app */,
+				A3F897241C17DAEC00D7041C /* BRIGestureLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F8970D1C17DAEB00D7041C /* BRIGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				A3F897111C17DAEB00D7041C /* AppDelegate.h */,
+				A3F897121C17DAEB00D7041C /* AppDelegate.m */,
+				A3F897141C17DAEB00D7041C /* ViewController.h */,
+				A3F897151C17DAEB00D7041C /* ViewController.m */,
+				A3F897331C17DB2A00D7041C /* BRIGestureLock.h */,
+				A3F897341C17DB2A00D7041C /* BRIGestureLock.m */,
+				A3F897361C17DC3D00D7041C /* BRIGesturePoint.h */,
+				A3F897371C17DC3D00D7041C /* BRIGesturePoint.m */,
+				A3F897391C17DC5600D7041C /* BRIGestureLine.h */,
+				A3F8973A1C17DC5600D7041C /* BRIGestureLine.m */,
+				A3261FD61C1963FC004030B9 /* NSArray+BRIGestureLock.h */,
+				A3261FD71C1963FC004030B9 /* NSArray+BRIGestureLock.m */,
+				A3F897171C17DAEB00D7041C /* Main.storyboard */,
+				A3F8971A1C17DAEB00D7041C /* Assets.xcassets */,
+				A3F8971C1C17DAEB00D7041C /* LaunchScreen.storyboard */,
+				A3F8971F1C17DAEB00D7041C /* Info.plist */,
+				A3F8970E1C17DAEB00D7041C /* Supporting Files */,
+			);
+			path = BRIGestureLock;
+			sourceTree = "<group>";
+		};
+		A3F8970E1C17DAEB00D7041C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F8970F1C17DAEB00D7041C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F897271C17DAEC00D7041C /* BRIGestureLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F897281C17DAEC00D7041C /* BRIGestureLockTests.m */,
+				A3F8972A1C17DAEC00D7041C /* Info.plist */,
+			);
+			path = BRIGestureLockTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F8970A1C17DAEB00D7041C /* BRIGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F8972D1C17DAEC00D7041C /* Build configuration list for PBXNativeTarget "BRIGestureLock" */;
+			buildPhases = (
+				A3F897071C17DAEB00D7041C /* Sources */,
+				A3F897081C17DAEB00D7041C /* Frameworks */,
+				A3F897091C17DAEB00D7041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRIGestureLock;
+			productName = BRIGestureLock;
+			productReference = A3F8970B1C17DAEB00D7041C /* BRIGestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F897231C17DAEC00D7041C /* BRIGestureLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F897301C17DAEC00D7041C /* Build configuration list for PBXNativeTarget "BRIGestureLockTests" */;
+			buildPhases = (
+				A3F897201C17DAEC00D7041C /* Sources */,
+				A3F897211C17DAEC00D7041C /* Frameworks */,
+				A3F897221C17DAEC00D7041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F897261C17DAEC00D7041C /* PBXTargetDependency */,
+			);
+			name = BRIGestureLockTests;
+			productName = BRIGestureLockTests;
+			productReference = A3F897241C17DAEC00D7041C /* BRIGestureLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F897031C17DAEB00D7041C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ByRongInvest;
+				TargetAttributes = {
+					A3F8970A1C17DAEB00D7041C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A3F897231C17DAEC00D7041C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A3F8970A1C17DAEB00D7041C;
+					};
+				};
+			};
+			buildConfigurationList = A3F897061C17DAEB00D7041C /* Build configuration list for PBXProject "BRIGestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F897021C17DAEB00D7041C;
+			productRefGroup = A3F8970C1C17DAEB00D7041C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F8970A1C17DAEB00D7041C /* BRIGestureLock */,
+				A3F897231C17DAEC00D7041C /* BRIGestureLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F897091C17DAEB00D7041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F8971E1C17DAEB00D7041C /* LaunchScreen.storyboard in Resources */,
+				A3F8971B1C17DAEB00D7041C /* Assets.xcassets in Resources */,
+				A3F897191C17DAEB00D7041C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F897221C17DAEC00D7041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F897071C17DAEB00D7041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F897351C17DB2A00D7041C /* BRIGestureLock.m in Sources */,
+				A3F897381C17DC3D00D7041C /* BRIGesturePoint.m in Sources */,
+				A3261FD81C1963FC004030B9 /* NSArray+BRIGestureLock.m in Sources */,
+				A3F897161C17DAEB00D7041C /* ViewController.m in Sources */,
+				A3F8973B1C17DC5600D7041C /* BRIGestureLine.m in Sources */,
+				A3F897131C17DAEB00D7041C /* AppDelegate.m in Sources */,
+				A3F897101C17DAEB00D7041C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F897201C17DAEC00D7041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F897291C17DAEC00D7041C /* BRIGestureLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F897261C17DAEC00D7041C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F8970A1C17DAEB00D7041C /* BRIGestureLock */;
+			targetProxy = A3F897251C17DAEC00D7041C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F897171C17DAEB00D7041C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F897181C17DAEB00D7041C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F8971C1C17DAEB00D7041C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F8971D1C17DAEB00D7041C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F8972B1C17DAEC00D7041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F8972C1C17DAEC00D7041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F8972E1C17DAEC00D7041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BRIGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byronginvest.BRIGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3F8972F1C17DAEC00D7041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BRIGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byronginvest.BRIGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3F897311C17DAEC00D7041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BRIGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byronginvest.BRIGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRIGestureLock.app/BRIGestureLock";
+			};
+			name = Debug;
+		};
+		A3F897321C17DAEC00D7041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BRIGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byronginvest.BRIGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRIGestureLock.app/BRIGestureLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F897061C17DAEB00D7041C /* Build configuration list for PBXProject "BRIGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F8972B1C17DAEC00D7041C /* Debug */,
+				A3F8972C1C17DAEC00D7041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F8972D1C17DAEC00D7041C /* Build configuration list for PBXNativeTarget "BRIGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F8972E1C17DAEC00D7041C /* Debug */,
+				A3F8972F1C17DAEC00D7041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F897301C17DAEC00D7041C /* Build configuration list for PBXNativeTarget "BRIGestureLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F897311C17DAEC00D7041C /* Debug */,
+				A3F897321C17DAEC00D7041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F897031C17DAEB00D7041C /* Project object */;
+}
