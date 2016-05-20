@@ -12,17 +12,16 @@
 
 @interface ViewController ()
 <
-WKNavigationDelegate
+UIWebViewDelegate
 >
 
-@property (strong, nonatomic) WKWebView *webView;
+@property (strong, nonatomic) UIWebView *webView;
 
 @end
 
 @implementation ViewController
 
 - (void)awakeFromNib {
-    self.navigationItem.rightBarButtonItems = @[[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(raload)]];
     
     
     [self.view addSubview:self.webView];
@@ -41,17 +40,17 @@ WKNavigationDelegate
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://test.zhwayne.com"] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:15.f]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.0.201:8080/user/lightupMain.html"] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:15.f]];
 }
 
 #pragma mark - Getter
 
-- (WKWebView *)webView {
+- (UIWebView *)webView {
     if (!_webView) {
-        _webView = [[WKWebView alloc] initWithFrame:CGRectZero];
+        _webView = [[UIWebView alloc] initWithFrame:CGRectZero];
         _webView.backgroundColor =[UIColor magentaColor];
         _webView.translatesAutoresizingMaskIntoConstraints = NO;
-        _webView.navigationDelegate = self;
+        _webView.delegate = self;
     }
     
     return _webView;
@@ -60,15 +59,30 @@ WKNavigationDelegate
 #pragma mark -
 
 - (void)raload {
-    NSLog(@"asdf");
+    [self.webView reload];
 }
 
-#pragma mark -
+#pragma mark - Web view delegate
 
-- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
-    if (webView.title) {
-        self.title = webView.title;
-    }
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    self.navigationItem.rightBarButtonItems = nil;
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    self.navigationItem.rightBarButtonItems = @[[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(raload)]];
+    
+    JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    NSString *titleJS = @"document.title";
+    self.title = [[context evaluateScript:titleJS] toString];
+
+    context.exceptionHandler = ^(JSContext *con, JSValue *exception) {
+        NSLog(@"%@", exception);
+        con.exception = exception;
+    };
+
+    NSLog(@"%@", [context evaluateScript:@"getShareLink()"]);
 }
 
 @end
